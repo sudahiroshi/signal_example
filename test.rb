@@ -2,9 +2,9 @@ trap(:SIGHUP) do
   puts "SIGHUP !!"
 end
 
-#trap(:SIGTERM) do
-  #puts "SIGTERM !!"
-#end
+trap(:SIGTERM) do
+  puts "SIGTERM !!"
+end
 
 trap(:SIGKILL) do
   puts "SIGKILL !!"
